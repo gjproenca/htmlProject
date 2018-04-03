@@ -78,7 +78,7 @@
 
       <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
-          <form action="./redirect.html" id="login">
+          <form action="./redirect.html" id="login" method="post">
             <div class="form-group row">
               <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
               <div class="col-sm-10">
@@ -112,7 +112,7 @@
           </form>
         </div>
         <div class="tab-pane fade" id="signUp" role="tabpanel" aria-labelledby="signUp-tab">
-          <form action="./redirect.html" onsubmit="return validarPassword();">
+          <form action="./redirect.html" onsubmit="return validarPassword();" method="post">
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="inputEmail4">Email</label>
