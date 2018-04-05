@@ -67,47 +67,44 @@
   <div class="container content">
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Introdução</h1>
-        <p class="lead">Estrutura de um documento Html</p>
-
-        <hr class="my-4">
-
-        <p>HTML significa Hyper Text Markup Language.
-          <br /> HTML descreve a estrutura das p&aacute;ginas da Web usando marca&ccedil;&atilde;o.
-          <br /> Os elementos HTML s&atilde;o os blocos de constru&ccedil;&atilde;o de p&aacute;ginas HTML.
-          <br /> Elementos HTML s&atilde;o representados por tags.
-          <br /> Etiquetas HTML descrevem pe&ccedil;as de conte&uacute;do, como &quot;t&iacute;tulo&quot;, &quot;par&aacute;grafo&quot;,
-          &quot;tabela&quot;, e assim por diante.
-          <br /> Os navegadores n&atilde;o mostram as tags HTML, mas usam-nas para processar e renderizar o conte&uacute;do da
-          p&aacute;gina.
-        </p>
+        <h1 class="display-4">Tabelas</h1>
+        <p class="lead">Estrutura de uma tabela</p>
 
         <hr class="my-4">
 
         <p class="lead">Elementos</p>
-        <p>A declaração &lt;!DOCTYPE html> define este documento como HTML5.
-          <br /> O elemento &lt;head> contém informações meta sobre o documento.
-          <br /> O elemento &lt;html> é o elemento raiz de uma página HTML.
-          <br /> O elemento &lt;title> especifica um título para o documento.
-          <br /> O elemento &lt;body> contém o conteúdo visível da página.
-          <br /> O elemento &lt;h1> define um cabeçalho grande.
-          <br /> O elemento &lt;p> define um parágrafo.</p>
+        <p>Use o elemento HTML &lt;table> para definir uma tabela.
+          <br /> Use o elemento HTML &lt;tr> para definir uma linha da tabela.
+          <br /> Use o elemento HTML &lt;td> para definir os dados de uma tabela.
+          <br /> Use o elemento HTML &lt;th> para definir um cabe&ccedil;alho de tabela.
+          <br /> Use o elemento HTML &lt;caption> para definir uma legenda de tabela.
+          <br /> Use a propriedade CSS border para definir uma borda.
+          <br /> Use a propriedade CSS border-collapse para recolher as bordas das c&eacute;lulas.
+          <br /> Use a propriedade CSS padding x para adicionar preenchimento &agrave;s c&eacute;lulas.
+          <br /> Use a propriedade CSS text-align x para alinhar o texto da c&eacute;lula.
+          <br /> Use a propriedade CSS border-spacing x para definir o espa&ccedil;amento entre as c&eacute;lulas.
+          <br /> Use o atributo colspan para expandir uma c&eacute;lula em v&aacute;rias colunas.
+          <br /> Use o atributo rowspan para fazer com que uma c&eacute;lula se estenda por várias linhas.
+          <br /> Use o atributo id para definir o estilo de uma tabela em exclusivo.</p>
 
         <hr class="my-4">
 
         <p class="lead">Exemplo</p>
-        <p>&lt;!DOCTYPE html&gt;&nbsp;
-          <br />&lt;html&gt;&nbsp;
-          <br />&lt;head&gt;&nbsp;
-          <br />&nbsp; &lt;title&gt;Page Title&lt;/title&gt;&nbsp;
-          <br />&lt;/head&gt;&nbsp;
-          <br />&lt;body&gt;&nbsp;
-          <br />
-          <br />&lt;h1&gt;My First Heading&lt;/h1&gt;&nbsp;
-          <br />&lt;p&gt;My first paragraph.&lt;/p&gt;&nbsp;
-          <br />
-          <br />&lt;/body&gt;&nbsp;
-          <br />&lt;/html&gt;</p>
+        <p>&lt;table&nbsp;style="width:100%"&gt;
+          <br />&nbsp;&nbsp;&lt;caption&gt;Monthly savings&lt;/caption&gt;
+          <br />&nbsp;&nbsp;&lt;tr&gt;
+          <br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Month&lt;/th&gt;
+          <br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Savings&lt;/th&gt;
+          <br />&nbsp;&nbsp;&lt;/tr&gt;
+          <br />&nbsp;&nbsp;&lt;tr&gt;
+          <br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;January&lt;/td&gt;
+          <br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;$100&lt;/td&gt;
+          <br />&nbsp;&nbsp;&lt;/tr&gt;
+          <br />&nbsp;&nbsp;&lt;tr&gt;
+          <br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;February&lt;/td&gt;
+          <br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;$50&lt;/td&gt;
+          <br />&nbsp;&nbsp;&lt;/tr&gt;
+          <br />&lt;/table&gt;</p>
       </div>
     </div>
   </div>
