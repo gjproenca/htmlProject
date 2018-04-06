@@ -67,47 +67,66 @@
   <div class="container content">
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Introdução</h1>
-        <p class="lead">Estrutura de um documento Html</p>
-
-        <hr class="my-4">
-
-        <p>HTML significa Hyper Text Markup Language.
-          <br /> HTML descreve a estrutura das p&aacute;ginas da Web usando marca&ccedil;&atilde;o.
-          <br /> Os elementos HTML s&atilde;o os blocos de constru&ccedil;&atilde;o de p&aacute;ginas HTML.
-          <br /> Elementos HTML s&atilde;o representados por tags.
-          <br /> Etiquetas HTML descrevem pe&ccedil;as de conte&uacute;do, como &quot;t&iacute;tulo&quot;, &quot;par&aacute;grafo&quot;,
-          &quot;tabela&quot;, e assim por diante.
-          <br /> Os navegadores n&atilde;o mostram as tags HTML, mas usam-nas para processar e renderizar o conte&uacute;do da
-          p&aacute;gina.
-        </p>
+        <h1 class="display-4">Tabelas</h1>
+        <p class="lead">Estrutura de uma tabela</p>
 
         <hr class="my-4">
 
         <p class="lead">Elementos</p>
-        <p>A declaração &lt;!DOCTYPE html> define este documento como HTML5.
-          <br /> O elemento &lt;head> contém informações meta sobre o documento.
-          <br /> O elemento &lt;html> é o elemento raiz de uma página HTML.
-          <br /> O elemento &lt;title> especifica um título para o documento.
-          <br /> O elemento &lt;body> contém o conteúdo visível da página.
-          <br /> O elemento &lt;h1> define um cabeçalho grande.
-          <br /> O elemento &lt;p> define um parágrafo.</p>
+        <p>
+          &lt;ul&gt; Define uma lista n&atilde;o ordenada.
+          <br /> &lt;ol&gt; Define uma lista ordenada.
+          <br /> &lt;li&gt; Define um item da lista.
+          <br /> &lt;dl&gt; Define uma lista de descri&ccedil;&atilde;o.
+          <br /> &lt;dt&gt; Define um termo numa lista de descri&ccedil;&otilde;es.
+          <br /> &lt;dd&gt; Descreve o termo numa lista de descri&ccedil;&otilde;es.
+        </p>
 
         <hr class="my-4">
 
         <p class="lead">Exemplo</p>
-        <p>&lt;!DOCTYPE html&gt;&nbsp;
-          <br />&lt;html&gt;&nbsp;
-          <br />&lt;head&gt;&nbsp;
-          <br />&nbsp; &lt;title&gt;Page Title&lt;/title&gt;&nbsp;
-          <br />&lt;/head&gt;&nbsp;
-          <br />&lt;body&gt;&nbsp;
+        <div>&lt;!DOCTYPE html&gt;
+          <br /> &lt;html&gt;
+          <br /> &lt;head&gt;
+          <br /> &lt;style&gt;
+          <br /> ul {
+          <br /> &nbsp;&nbsp;&nbsp; list-style-type: none;
+          <br /> &nbsp;&nbsp;&nbsp; margin: 0;
+          <br /> &nbsp;&nbsp;&nbsp; padding: 0;
+          <br /> &nbsp;&nbsp;&nbsp; overflow: hidden;
+          <br /> &nbsp;&nbsp;&nbsp; background-color: #333333;
+          <br /> }
           <br />
-          <br />&lt;h1&gt;My First Heading&lt;/h1&gt;&nbsp;
-          <br />&lt;p&gt;My first paragraph.&lt;/p&gt;&nbsp;
+          <br /> li {
+          <br /> &nbsp;&nbsp;&nbsp; float: left;
+          <br /> }
           <br />
-          <br />&lt;/body&gt;&nbsp;
-          <br />&lt;/html&gt;</p>
+          <br /> li a {
+          <br /> &nbsp;&nbsp;&nbsp; display: block;
+          <br /> &nbsp;&nbsp;&nbsp; color: white;
+          <br /> &nbsp;&nbsp;&nbsp; text-align: center;
+          <br /> &nbsp;&nbsp;&nbsp; padding: 16px;
+          <br /> &nbsp;&nbsp;&nbsp; text-decoration: none;
+          <br /> }
+          <br />
+          <br /> li a:hover {
+          <br /> &nbsp;&nbsp;&nbsp; background-color: #111111;
+          <br /> }
+          <br /> &lt;/style&gt;
+          <br /> &lt;/head&gt;
+          <br /> &lt;body&gt;
+          <br />
+          <br /> &lt;ul&gt;
+          <br /> &nbsp; &lt;li&gt;&lt;a href=&quot;#home&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+          <br /> &nbsp; &lt;li&gt;&lt;a href=&quot;#news&quot;&gt;News&lt;/a&gt;&lt;/li&gt;
+          <br /> &nbsp; &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+          <br /> &nbsp; &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+          <br /> &lt;/ul&gt;
+          <br />
+          <br /> &lt;/body&gt;
+          <br /> &lt;/html&gt;
+        </div>
+
       </div>
     </div>
   </div>
