@@ -67,20 +67,40 @@
   <div class="container content">
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Iframes</h1>
-        <p class="lead">Estrutura de um Iframe</p>
+        <h1 class="display-4">Formulários</h1>
+        <p class="lead">Estrutura de um Formulário</p>
 
         <hr class="my-4">
 
         <p class="lead">Elementos</p>
-        <p>&lt;iframe&gt; Define um Iframe em linha.</p>
-
+        <p>&lt;input type = "text"&gt; Define um campo de entrada de texto de uma linha.
+          <br />&lt;input type = "radio"&gt; Define um bot&atilde;o de op&ccedil;&atilde;o (para selecionar uma de v&aacute;rias
+          op&ccedil;&otilde;es).
+          <br />&lt;input type = "submit"&gt; Define um bot&atilde;o de envio (para enviar o formul&aacute;rio).</p>
+        <p>accept-charset - Especifica o conjunto de caracteres usado no formul&aacute;rio enviado (padr&atilde;o: o conjunto
+          de caracteres da p&aacute;gina).
+          <br />action - Especifica um endere&ccedil;o (url) para onde enviar o formul&aacute;rio (padr&atilde;o: a p&aacute;gina
+          de envio).
+          <br />autocomplete - Especifica se o navegador deve preencher automaticamente o formul&aacute;rio (padr&atilde;o: ativado).
+          <br />enctype - Especifica a codifica&ccedil;&atilde;o dos dados enviados (padr&atilde;o: &eacute; url-encoded).
+          <br />method - Especifica o m&eacute;todo HTTP usado ao enviar o formul&aacute;rio (padr&atilde;o: GET).
+          <br />nome - Especifica um nome usado para identificar o formul&aacute;rio (para uso do DOM: document.forms.name).
+          <br />novalidate - Especifica que o navegador n&atilde;o deve validar o formul&aacute;rio.
+          <br />target - Especifica o destino do endere&ccedil;o no atributo de a&ccedil;&atilde;o (padr&atilde;o: _self).</p>
 
         <hr class="my-4">
 
         <p class="lead">Exemplo</p>
-        <p>&lt;iframe height="300px" width="100%" src="demo_iframe.htm" name="iframe_a"&gt;&lt;/iframe&gt;</p>
-        <p>&lt;p&gt;&lt;a href="https://www.w3schools.com" target="iframe_a"&gt;W3Schools.com&lt;/a&gt;&lt;/p&gt;</p>
+        <p>&lt;form&nbsp;action="/action_page.php"&gt;
+          <br />&nbsp;&nbsp;&lt;fieldset&gt;
+          <br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;legend&gt;Personal information:&lt;/legend&gt;
+          <br />&nbsp;&nbsp;&nbsp; First name:&lt;br&gt;
+          <br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;type="text"&nbsp;name="firstname"&nbsp;value="Mickey"&gt;&lt;br&gt;
+          <br />&nbsp;&nbsp;&nbsp; Last name:&lt;br&gt;
+          <br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;type="text"&nbsp;name="lastname"&nbsp;value="Mouse"&gt;&lt;br&gt;&lt;br&gt;
+          <br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;type="submit"&nbsp;value="Submit"&gt;
+          <br />&nbsp;&nbsp;&lt;/fieldset&gt;
+          <br />&lt;/form&gt;</p>
       </div>
     </div>
   </div>
