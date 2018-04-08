@@ -28,29 +28,33 @@
           <li class="nav-item">
             <a class="nav-link" href="./../index.html">Home</a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Classes
+              Class content
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">1 Class</a>
-              <a class="dropdown-item" href="#">2 Class</a>
-              <a class="dropdown-item" href="#">3 Class</a>
-              <a class="dropdown-item" href="#">4 Class</a>
-              <a class="dropdown-item" href="#">5 Class</a>
-              <a class="dropdown-item" href="#">6 Class</a>
-              <a class="dropdown-item" href="#">7 Class</a>
-              <a class="dropdown-item" href="#">8 Class</a>
-              <a class="dropdown-item" href="#">9 Class</a>
-              <a class="dropdown-item" href="#">10 Class</a>
-              <a class="dropdown-item" href="#">11 Class</a>
-              <a class="dropdown-item" href="#">12 Class</a>
-              <a class="dropdown-item" href="#">13 Class</a>
-              <a class="dropdown-item" href="#">14 Class</a>
+              <a class="dropdown-item" href="./htmlIntroduction.html">Introdução</a>
+              <a class="dropdown-item" href="./htmlAttributes.html">Atributos</a>
+              <a class="dropdown-item" href="./htmlCss.html">Css</a>
+              <a class="dropdown-item" href="./htmlJavascript.html">Javascript</a>
+              <a class="dropdown-item" href="./htmlForms.html">Formulários</a>
+              <a class="dropdown-item active" href="#">Listas</a>
+              <a class="dropdown-item" href="./htmlTables.html">Tabelas</a>
+              <a class="dropdown-item" href="./htmlIframes.html">Iframes</a>
+              <a class="dropdown-item" href="./htmlImages.html">Imagens</a>
+              <div class="dropdown-divider"></div>
+              <h6 class="dropdown-header">PDF</h6>
+              <a class="dropdown-item" href="./pdfHtml.html">HTML</a>
+              <a class="dropdown-item" href="./pdfHtmlW3c.html">HTML W3C</a>
+              <a class="dropdown-item" href="./pdfHtml5Css.html">HTML 5 CSS</a>
+              <div class="dropdown-divider"></div>
+              <h6 class="dropdown-header">PDF Aulas</h6>
+              <a class="dropdown-item" href="./pdfPptHtml.html">PPT HTML</a>
+              <a class="dropdown-item" href="./pdfPptHtmlValidations.html">PPT HTML Validações</a>
             </div>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">About</a>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./contacts.html">Contacts</a>
@@ -67,66 +71,62 @@
   <div class="container content">
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Tabelas</h1>
-        <p class="lead">Estrutura de uma tabela</p>
+        <h1 class="display-4">Listas</h1>
+        <p class="lead">Estrutura de uma lista</p>
 
         <hr class="my-4">
 
         <p class="lead">Elementos</p>
-        <p>
-          &lt;ul&gt; Define uma lista n&atilde;o ordenada.
-          <br /> &lt;ol&gt; Define uma lista ordenada.
-          <br /> &lt;li&gt; Define um item da lista.
-          <br /> &lt;dl&gt; Define uma lista de descri&ccedil;&atilde;o.
-          <br /> &lt;dt&gt; Define um termo numa lista de descri&ccedil;&otilde;es.
-          <br /> &lt;dd&gt; Descreve o termo numa lista de descri&ccedil;&otilde;es.
-        </p>
+        <p>&lt;ul&gt; Define uma lista n&atilde;o ordenada.
+          <br />&lt;ol&gt; Define uma lista ordenada.
+          <br />&lt;li&gt; Define um item da lista.
+          <br />&lt;dl&gt; Define uma lista de descri&ccedil;&atilde;o.
+          <br />&lt;dt&gt; Define um termo em uma lista de descri&ccedil;&otilde;es.
+          <br />&lt;dd&gt; Descreve o termo em uma lista de descri&ccedil;&otilde;es.</p>
 
         <hr class="my-4">
 
         <p class="lead">Exemplo</p>
-        <div>&lt;!DOCTYPE html&gt;
-          <br /> &lt;html&gt;
-          <br /> &lt;head&gt;
-          <br /> &lt;style&gt;
-          <br /> ul {
-          <br /> &nbsp;&nbsp;&nbsp; list-style-type: none;
-          <br /> &nbsp;&nbsp;&nbsp; margin: 0;
-          <br /> &nbsp;&nbsp;&nbsp; padding: 0;
-          <br /> &nbsp;&nbsp;&nbsp; overflow: hidden;
-          <br /> &nbsp;&nbsp;&nbsp; background-color: #333333;
-          <br /> }
+        <p>&lt;!DOCTYPE&nbsp;html&gt;
+          <br />&lt;html&gt;
+          <br />&lt;head&gt;
+          <br />&lt;style&gt;
+          <br />ul&nbsp;{
+          <br />&nbsp;&nbsp;&nbsp; list-style-type:&nbsp;none;
+          <br />&nbsp;&nbsp;&nbsp; margin:&nbsp;0;
+          <br />&nbsp;&nbsp;&nbsp; padding:&nbsp;0;
+          <br />&nbsp;&nbsp;&nbsp; overflow:&nbsp;hidden;
+          <br />&nbsp;&nbsp;&nbsp; background-color:&nbsp;#333333;
+          <br />}
           <br />
-          <br /> li {
-          <br /> &nbsp;&nbsp;&nbsp; float: left;
-          <br /> }
+          <br />li&nbsp;{
+          <br />&nbsp;&nbsp;&nbsp; float:&nbsp;left;
+          <br />}
           <br />
-          <br /> li a {
-          <br /> &nbsp;&nbsp;&nbsp; display: block;
-          <br /> &nbsp;&nbsp;&nbsp; color: white;
-          <br /> &nbsp;&nbsp;&nbsp; text-align: center;
-          <br /> &nbsp;&nbsp;&nbsp; padding: 16px;
-          <br /> &nbsp;&nbsp;&nbsp; text-decoration: none;
-          <br /> }
+          <br />li a&nbsp;{
+          <br />&nbsp;&nbsp;&nbsp; display:&nbsp;block;
+          <br />&nbsp;&nbsp;&nbsp; color:&nbsp;white;
+          <br />&nbsp;&nbsp;&nbsp; text-align:&nbsp;center;
+          <br />&nbsp;&nbsp;&nbsp; padding:&nbsp;16px;
+          <br />&nbsp;&nbsp;&nbsp; text-decoration:&nbsp;none;
+          <br />}
           <br />
-          <br /> li a:hover {
-          <br /> &nbsp;&nbsp;&nbsp; background-color: #111111;
-          <br /> }
-          <br /> &lt;/style&gt;
-          <br /> &lt;/head&gt;
-          <br /> &lt;body&gt;
+          <br />li a:hover&nbsp;{
+          <br />&nbsp;&nbsp;&nbsp; background-color:&nbsp;#111111;
+          <br />}
+          <br />&lt;/style&gt;
+          <br />&lt;/head&gt;
+          <br />&lt;body&gt;
           <br />
-          <br /> &lt;ul&gt;
-          <br /> &nbsp; &lt;li&gt;&lt;a href=&quot;#home&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
-          <br /> &nbsp; &lt;li&gt;&lt;a href=&quot;#news&quot;&gt;News&lt;/a&gt;&lt;/li&gt;
-          <br /> &nbsp; &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-          <br /> &nbsp; &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
-          <br /> &lt;/ul&gt;
+          <br />&lt;ul&gt;
+          <br />&nbsp;&nbsp;&lt;li&gt;&lt;a&nbsp;href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+          <br />&nbsp;&nbsp;&lt;li&gt;&lt;a&nbsp;href="#news"&gt;News&lt;/a&gt;&lt;/li&gt;
+          <br />&nbsp;&nbsp;&lt;li&gt;&lt;a&nbsp;href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+          <br />&nbsp;&nbsp;&lt;li&gt;&lt;a&nbsp;href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
+          <br />&lt;/ul&gt;
           <br />
-          <br /> &lt;/body&gt;
-          <br /> &lt;/html&gt;
-        </div>
-
+          <br />&lt;/body&gt;
+          <br />&lt;/html&gt;</p>
       </div>
     </div>
   </div>
